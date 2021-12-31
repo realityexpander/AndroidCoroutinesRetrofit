@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         viewModel.countryLoadError.observe(this, Observer { isError ->
-            list_error.visibility = if(isError == "") View.GONE else View.VISIBLE
+            list_error.visibility = if(isError == "" || isError== null) View.GONE else View.VISIBLE
         })
 
         viewModel.loading.observe(this, Observer { isLoading ->

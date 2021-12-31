@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 const private val BASE_URL = "https://raw.githubusercontent.com"
 
-class CountriesService {
+object CountriesService {
     
     fun getCountriesService(): CountriesApi {
         return Retrofit.Builder()
