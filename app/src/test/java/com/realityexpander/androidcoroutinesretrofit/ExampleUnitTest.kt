@@ -1,4 +1,4 @@
-package com.devtides.androidcoroutinesretrofit
+package com.realityexpander.androidcoroutinesretrofit
 
 import org.junit.Test
 

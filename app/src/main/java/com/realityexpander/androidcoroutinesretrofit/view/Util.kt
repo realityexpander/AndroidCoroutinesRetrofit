@@ -1,9 +1,9 @@
-package com.devtides.coroutinesretrofit.view
+package com.realityexpander.coroutinesretrofit.view
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.devtides.androidcoroutinesretrofit.R
+import com.realityexpander.androidcoroutinesretrofit.R
 
 
 fun ImageView.loadImage(uri: String?) {

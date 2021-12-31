@@ -1,4 +1,4 @@
-package com.devtides.androidcoroutinesretrofit.view
+package com.realityexpander.androidcoroutinesretrofit.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.devtides.androidcoroutinesretrofit.R
-import com.devtides.androidcoroutinesretrofit.viewmodel.ListViewModel
-import com.devtides.coroutinesretrofit.view.CountryListAdapter
+import com.realityexpander.androidcoroutinesretrofit.R
+import com.realityexpander.androidcoroutinesretrofit.viewmodel.ListViewModel
+import com.realityexpander.coroutinesretrofit.view.CountryListAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
